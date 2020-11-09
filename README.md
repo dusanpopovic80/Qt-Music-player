@@ -1,2 +1,2 @@
-# Qt-Music-player-
+# Qt-Music-player
 Music player i made in Qt
