@@ -4,7 +4,7 @@
 #ifdef Q_OS_LINUX
     const QString    musicPath = "/home/hel/Music/";
     const QString    os        = "Linux";
-#elif Q_OS_WIN34
+#elif Q_OS_WIN32
     const QString    musicPath = "idk";
     const QString    os        = "Windows"
 #endif
