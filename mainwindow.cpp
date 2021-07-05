@@ -5,7 +5,7 @@
     const QString    musicPath = "/home/hel/Music/";
     const QString    os        = "Linux";
 #elif Q_OS_WIN32
-    const QString    musicPath = "C:\\Users\\hel\\Music";
+    const QString    musicPath = "C:\\Users\\Admin\\Music";
     const QString    os        = "Windows"
 #endif
 
