@@ -6,7 +6,7 @@
     const QString    os        = "Linux";
 #elif Q_OS_WIN32
     const QString    musicPath = "C:\\Users\\Admin\\Music";
-    const QString    os        = "Windows"
+    const QString    os        = "Windows";
 #endif
 
 quint8           volume = 100;
@@ -26,6 +26,8 @@ MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
+    ui->setupUi(this);
+
     player     = new QMediaPlayer;
     playlist  = new QMediaPlaylist(player);
 
